@@ -1,13 +1,142 @@
-/* Color */
+/* || Color */
 /* Primary */
 $dark-cyan: #19a2ae;
-$very-dark-desaturated-blue: #2d3248;
-$dark-grayish-blue: #6a6f81;
+$very-dark-desaturated-blue: #2E3349;
+$dark-grayish-blue: #6B7082;
+$white: #ffffff;
 /* Neutral */
 $dark-gray: #969696;
 
+/* || Global variables */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* || Body variables */
+body {
+    background-color: $dark-cyan;
+
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-size: 622px 621px;
+    background-position: top -355px left -410px, bottom -311px right -412px;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 0 24px 0 25px;
+    height: 100dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    padding: 92px 52px 24px 41px;
+    width: 100%;
+    max-width: 326px;
+    border-radius: 15px;
+
+    background-color: $white;
+    background-image: url("../images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-size: 326px 140px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    &__img {
+        border-radius: 50%;
+        outline: 5px solid $white;
+    }
+
+    &__inner-text {
+        max-width: 135px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 9px;
+    }
+
+    &__name {
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: $very-dark-desaturated-blue;
+    }
+
+    &__age {
+        margin-left: .5px;
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: $dark-grayish-blue;
+    }
+
+    &__city {
+        margin-bottom: 1px;
+
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        color: $dark-grayish-blue;
+    }
+
+    &__horizonal-line {
+        width: 100%;
+        height: 1px;
+        background-color: #E8E9EC;
+    }
+    
+    &__insights {
+        display: flex;
+        justify-content: space-between;
+        gap: 38px;
+    }
+
+    &__insight-quantity {
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: $very-dark-desaturated-blue;
+    }
+
+    &__insight {
+        margin-top: 5px;
+        margin-bottom: 1px;
+
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: $dark-grayish-blue;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
 }
