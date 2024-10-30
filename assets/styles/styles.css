@@ -26,14 +26,14 @@ main {
 }
 
 .profile-card {
-  padding: 92px 52px 24px 41px;
+  padding: 92px 0 24px;
   width: 100%;
   max-width: 326px;
   border-radius: 15px;
   background-color: #ffffff;
   background-image: url("../images/bg-pattern-card.svg");
   background-repeat: no-repeat;
-  background-size: 326px 140px;
+  background-size: 100% 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,6 +89,9 @@ main {
   justify-content: space-between;
   gap: 38px;
 }
+.profile-card__insights-group:last-child {
+  margin-left: 8px;
+}
 .profile-card__insight-quantity {
   font-family: "Kumbh Sans";
   font-style: normal;
@@ -109,4 +112,18 @@ main {
   text-align: center;
   letter-spacing: 1.5px;
   color: #6B7082;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-position: left -285px top -509px, bottom -632px right -230px;
+    background-size: 978px 976px;
+  }
+
+  .profile-card {
+    max-width: 350px;
+  }
+  .profile-card__insights {
+    gap: 46px;
+  }
 }
