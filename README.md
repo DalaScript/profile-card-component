@@ -1,73 +1,76 @@
-# Frontend Mentor - Profile card component solution
+# Profile Card Component | Frontend Mentor
+
+**Challenge 25**
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-  - [Connect with Me](#Connect-with-Me)
-  - [Coding Profiles](#Coding-Profiles)
+## 📚 Table of contents
 
-## Overview
+- [🔎 Overview](#-overview)
+  - [🎯 The challenge](#-the-challenge)
+  - [📸 Screenshot](#-screenshot)
+  - [🔗 Links](#-links)
+  - [🛠️ Built with](#️-built-with)
+- [🧠 My process](#-my-process)
+  - [🔙 Previous Challenge](#-previous-challenge)
+  - [🔜 Next Challenge](#-next-challenge)
+- [👤 About Me](#-about-me)
+  - [🌐 Connect with Me](#-connect-with-me)
+  - [💻 Coding Profiles](#-coding-profiles)
 
-### The challenge
+---
 
-- Build out the project to the designs provided
+## 🔎 Overview
 
-### Screenshot
+### 🎯 The challenge
 
-![](./assets/images/screenshot/screenshot.jpg)
+  - Build out the project to the designs provided
 
-### Links
+### 📸 Screenshot
 
-- [Solution URL](https://github.com/DalaScript/3-column-preview-card-component)
-- [Live Site URL](https://DalaScript.github.io/3-column-preview-card-component/)
+![Live Preview Screenshot](./assets/images/screenshot/screenshot.jpg)
 
-## My process
+### 🔗 Links
 
-### Built with
+  - [🔴 Live Demo](https://dalascript.github.io/profile-card-component/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/profile-card-component)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- bem - [Block Element Modifier](https://getbem.com/introduction/)
-- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+### 🛠️ Built with
 
-### What I learned
+  - HTML5
+  - CSS3
+  - Flexbox
+  - Mobile-first workflow
+  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+  - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
-Nothing special, This was actually a very simple challenge.
+---
 
-### Continued development
+## 🧠 My process
 
-I have already completed two JavaScript courses on freeCodeCamp, and I am currently taking the Front End Development Libraries course, where I’ve finished Bootstrap, jQuery, and Sass, and I’m now working through React.
+### 🔙 Previous Challenge
 
-Alongside this, I am working on projects and following a learning path on Frontendmentor.
+  - 3 Column Preview Card Component | *Challenge 24* → [View Repository](https://github.com/DalaScript/3-column-preview-card-component)
 
-### Useful resources
+### 🔜 Next Challenge
 
-- [ChatGPT](https://chatgpt.com/) - He is my hero, if I need something fast, if I can't understand something, or if I can't find it on the internet, I always ask him.
-- [W3Schools](https://www.w3schools.com/) - This is my favorite documentation platform I've been using since I started programming, it's the best explained resource.
-- [YouTube](https://www.youtube.com/) - I'm always looking for news and listening to other developers, sharing their experiences so that I can see many different solutions to a problem.
+  - Contact Form | *Challenge 26* → [View Repository](https://github.com/DalaScript/contact-form)
 
-## Author
+---
 
-### Connect with Me
+## 👤 About Me
 
-- [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@DalaScript)
+### 🌐 Connect with Me
 
-### Coding Profiles
+  - [Instagram](https://www.instagram.com/DalaScript)
+  - [YouTube](https://www.youtube.com/@DalaScript)
 
-- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-- [GitHub](https://github.com/DalaScript)
+### 💻 Coding Profiles
+
+  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+  - [GitHub](https://github.com/DalaScript)
+
+*🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*
